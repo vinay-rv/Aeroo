@@ -1,0 +1,228 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+.pilot{
+    height:100vh;
+    width:100%;
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background: #000;
+}
+#main{
+    width:5%;
+    height: 5%;
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navbtn{
+    padding:10px;
+    color:white;
+    background: red;
+}
+.content{
+    position:absolute;
+    top:40%;
+    left:5%;
+}
+h1{
+    color:white;
+    margin:10px 0px 10px;
+    font-size:75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color:white;
+    margin:10px 0px 10px;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin:20px;
+}
+p{
+    margin:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contentbtn{
+    padding:10px;
+    margin-top:10px;
+    color:white;
+    background: red;
+    border:0;
+}
+.avaition{
+    width:100%;
+    padding:100px 0px;
+    background-color: rgb(213, 248, 248);
+}
+#avaitionimg{
+    width:400px;
+    height: 300px;
+}
+.avaitioncourse{
+    width:550px;
+}
+.main{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.choose{
+    width:100%;
+    align-content: center;
+}
+.choosecontainer{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.choose h2{
+    margin:40px 650px 150px;
+    color: black;
+    font-weight: bold;
+    display:block;
+}
+.choosecontainer h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.assessment{
+    width:100%;
+}
+.process {
+    text-align: center;
+}
+.stage{
+    padding:30px;
+    margin:0px;
+}
+.stagecontent{
+    margin:10px;
+}
+#stagebtn{
+    color:white;
+    background: red;
+    border:0;
+    padding:10px;
+    margin:50px 45% 0px;
+    display:block;
+}
+.course{
+    width:100%;
+    background: rgb(249, 244, 244); 
+    height: 500px;
+}
+.course h2{
+    font-size: 50px;
+    margin:50px 45% 50px; 
+}
+.cards{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1{
+    width:350px;
+    height: 350px;
+    border-radius:5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    background-image: url(./images/card1.jpg);
+    background-size: contain;
+}
+.card2{
+    width:350px;
+    height: 350px;
+    border-radius:5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    background-image: url(./images/card2.jpg);
+    background-size: contain;
+}
+.card3{
+    width:350px;
+    height: 350px;
+    border-radius:5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    background-image: url(./images/card3.jpg);
+    background-size:contain;
+}
+.cardcontent{
+    position:relative;
+    top:50%;
+    height: 165px;
+    border-radius: 5%;
+    font-weight: bold;
+    z-index: 999;
+    background: white;
+}
+h4{
+    margin:10px;
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+    padding:10px;
+}
+.important{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    
+    margin-top:0;
+}
+.impflex{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    border: 1px solid snow;
+    position: relative;
+    left: 10%;  
+}
+.faq{
+    width:100%;
+    text-align: center;
+    margin:40px auto;
+}
+select{
+    padding:15px;
+   font-size: 20px;
+   font-weight: bolder;
+   margin:10px;
+   border:0;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+
+}
+.footer{
+    width:100%;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:aliceblue;
+    height: 300px;
+}
+.footer pre{
+    font-size: 10px;
+}
+.footer img{
+    width:10%;
+    height: 10%;
+}
